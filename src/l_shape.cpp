@@ -16,11 +16,9 @@ LShape::LShape(Point position, Color color)
 
 void LShape::rotate()
 {
-	//TODO: Implement rotation
 	switch(Shape::orientation())
 	{
 		case Orientation::UP:
-			std::cout << "UP" << std::endl;
 			Shape::blocks_[0]->moveUp   (-1 * Block::Dimension);
 			Shape::blocks_[0]->moveRight( 2 * Block::Dimension);
 			Shape::blocks_[1]->moveRight( 1 * Block::Dimension);
@@ -29,7 +27,6 @@ void LShape::rotate()
 		break;
 
 		case Orientation::RIGHT:
-			std::cout << "RIGHT" << std::endl;
 			Shape::blocks_[0]->moveRight(-1 * Block::Dimension);
 			Shape::blocks_[0]->moveUp   (-2 * Block::Dimension);
 			Shape::blocks_[1]->moveUp   (-1 * Block::Dimension);
@@ -38,16 +35,15 @@ void LShape::rotate()
 		break;
 
 		case Orientation::DOWN:
-			std::cout << "DOWN" << std::endl;
 			Shape::blocks_[0]->moveUp   ( 2 * Block::Dimension);
 			Shape::blocks_[0]->moveRight(-2 * Block::Dimension);
 			Shape::blocks_[1]->moveUp   ( 1 * Block::Dimension);
 			Shape::blocks_[1]->moveRight(-1 * Block::Dimension);
-			Shape::blocks_[2]->moveRight( 1 * Block::Dimension);
+			Shape::blocks_[3]->moveRight( 1 * Block::Dimension);
+			Shape::blocks_[3]->moveUp   ( 1 * Block::Dimension);
 		break;
 
 		case Orientation::LEFT:
-			std::cout << "LEFT" << std::endl;
 			Shape::blocks_[0]->moveUp   ( 1 * Block::Dimension);
 			Shape::blocks_[0]->moveRight( 1 * Block::Dimension);
 			Shape::blocks_[2]->moveRight(-1 * Block::Dimension);

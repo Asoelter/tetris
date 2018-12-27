@@ -31,6 +31,8 @@ add_library(atomic src/main.cpp
 			   src/block.h							src/block.cpp
 			   src/shape.h							src/shape.cpp
 			   src/l_shape.h						src/l_shape.cpp
+			   src/z_shape.h						src/z_shape.cpp
+			   src/staging_area.h					src/staging_area.cpp
 			   )
 
 add_executable(tetris		src/main.cpp

@@ -723,6 +723,60 @@ src/shape.cpp.s:
 	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape.cpp.s
 .PHONY : src/shape.cpp.s
 
+src/staging_area.o: src/staging_area.cpp.o
+
+.PHONY : src/staging_area.o
+
+# target to build an object file
+src/staging_area.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.o
+.PHONY : src/staging_area.cpp.o
+
+src/staging_area.i: src/staging_area.cpp.i
+
+.PHONY : src/staging_area.i
+
+# target to preprocess a source file
+src/staging_area.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.i
+.PHONY : src/staging_area.cpp.i
+
+src/staging_area.s: src/staging_area.cpp.s
+
+.PHONY : src/staging_area.s
+
+# target to generate assembly for a file
+src/staging_area.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.s
+.PHONY : src/staging_area.cpp.s
+
+src/z_shape.o: src/z_shape.cpp.o
+
+.PHONY : src/z_shape.o
+
+# target to build an object file
+src/z_shape.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.o
+.PHONY : src/z_shape.cpp.o
+
+src/z_shape.i: src/z_shape.cpp.i
+
+.PHONY : src/z_shape.i
+
+# target to preprocess a source file
+src/z_shape.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.i
+.PHONY : src/z_shape.cpp.i
+
+src/z_shape.s: src/z_shape.cpp.s
+
+.PHONY : src/z_shape.s
+
+# target to generate assembly for a file
+src/z_shape.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.s
+.PHONY : src/z_shape.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -794,6 +848,12 @@ help:
 	@echo "... src/shape.o"
 	@echo "... src/shape.i"
 	@echo "... src/shape.s"
+	@echo "... src/staging_area.o"
+	@echo "... src/staging_area.i"
+	@echo "... src/staging_area.s"
+	@echo "... src/z_shape.o"
+	@echo "... src/z_shape.i"
+	@echo "... src/z_shape.s"
 .PHONY : help
 
 

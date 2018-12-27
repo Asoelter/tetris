@@ -137,6 +137,8 @@ block.h
 /home/adam/workspace/openGL/games/tetris3/src/block.h
 l_shape.h
 /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
+z_shape.h
+/home/adam/workspace/openGL/games/tetris3/src/z_shape.h
 
 /home/adam/workspace/openGL/games/tetris3/src/shape.h
 array
@@ -147,6 +149,10 @@ algorithm
 -
 block.h
 /home/adam/workspace/openGL/games/tetris3/src/block.h
+
+/home/adam/workspace/openGL/games/tetris3/src/z_shape.h
+shape.h
+/home/adam/workspace/openGL/games/tetris3/src/shape.h
 
 /usr/include/glfw-3.2.1/include/GLFW/glfw3.h
 stddef.h

@@ -465,6 +465,54 @@ CMakeFiles/atomic.dir/src/l_shape.cpp.o.provides: CMakeFiles/atomic.dir/src/l_sh
 CMakeFiles/atomic.dir/src/l_shape.cpp.o.provides.build: CMakeFiles/atomic.dir/src/l_shape.cpp.o
 
 
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: CMakeFiles/atomic.dir/flags.make
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/z_shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/openGL/games/tetris3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/atomic.dir/src/z_shape.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/atomic.dir/src/z_shape.cpp.o -c /home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atomic.dir/src/z_shape.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp > CMakeFiles/atomic.dir/src/z_shape.cpp.i
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atomic.dir/src/z_shape.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp -o CMakeFiles/atomic.dir/src/z_shape.cpp.s
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.o.requires:
+
+.PHONY : CMakeFiles/atomic.dir/src/z_shape.cpp.o.requires
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.o.provides: CMakeFiles/atomic.dir/src/z_shape.cpp.o.requires
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.o.provides.build
+.PHONY : CMakeFiles/atomic.dir/src/z_shape.cpp.o.provides
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.o.provides.build: CMakeFiles/atomic.dir/src/z_shape.cpp.o
+
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: CMakeFiles/atomic.dir/flags.make
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/staging_area.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/openGL/games/tetris3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/atomic.dir/src/staging_area.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/atomic.dir/src/staging_area.cpp.o -c /home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atomic.dir/src/staging_area.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp > CMakeFiles/atomic.dir/src/staging_area.cpp.i
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atomic.dir/src/staging_area.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp -o CMakeFiles/atomic.dir/src/staging_area.cpp.s
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.o.requires:
+
+.PHONY : CMakeFiles/atomic.dir/src/staging_area.cpp.o.requires
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.o.provides: CMakeFiles/atomic.dir/src/staging_area.cpp.o.requires
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.o.provides.build
+.PHONY : CMakeFiles/atomic.dir/src/staging_area.cpp.o.provides
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.o.provides.build: CMakeFiles/atomic.dir/src/staging_area.cpp.o
+
+
 # Object files for target atomic
 atomic_OBJECTS = \
 "CMakeFiles/atomic.dir/src/main.cpp.o" \
@@ -483,7 +531,9 @@ atomic_OBJECTS = \
 "CMakeFiles/atomic.dir/src/engine/src/window.cpp.o" \
 "CMakeFiles/atomic.dir/src/block.cpp.o" \
 "CMakeFiles/atomic.dir/src/shape.cpp.o" \
-"CMakeFiles/atomic.dir/src/l_shape.cpp.o"
+"CMakeFiles/atomic.dir/src/l_shape.cpp.o" \
+"CMakeFiles/atomic.dir/src/z_shape.cpp.o" \
+"CMakeFiles/atomic.dir/src/staging_area.cpp.o"
 
 # External object files for target atomic
 atomic_EXTERNAL_OBJECTS =
@@ -505,9 +555,11 @@ libatomic.a: CMakeFiles/atomic.dir/src/engine/src/window.cpp.o
 libatomic.a: CMakeFiles/atomic.dir/src/block.cpp.o
 libatomic.a: CMakeFiles/atomic.dir/src/shape.cpp.o
 libatomic.a: CMakeFiles/atomic.dir/src/l_shape.cpp.o
+libatomic.a: CMakeFiles/atomic.dir/src/z_shape.cpp.o
+libatomic.a: CMakeFiles/atomic.dir/src/staging_area.cpp.o
 libatomic.a: CMakeFiles/atomic.dir/build.make
 libatomic.a: CMakeFiles/atomic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/workspace/openGL/games/tetris3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libatomic.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/workspace/openGL/games/tetris3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libatomic.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/atomic.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/atomic.dir/link.txt --verbose=$(VERBOSE)
 
@@ -533,6 +585,8 @@ CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/engine/src/window.cpp.
 CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/block.cpp.o.requires
 CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/shape.cpp.o.requires
 CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/l_shape.cpp.o.requires
+CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/z_shape.cpp.o.requires
+CMakeFiles/atomic.dir/requires: CMakeFiles/atomic.dir/src/staging_area.cpp.o.requires
 
 .PHONY : CMakeFiles/atomic.dir/requires
 

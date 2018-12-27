@@ -110,6 +110,7 @@ CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/window.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/l_shape.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/atomic.dir/src/main.cpp.o: src/shape.h
+CMakeFiles/atomic.dir/src/main.cpp.o: src/z_shape.h
 
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/block.h
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/engine/src/bordered_rectangle.h
@@ -122,4 +123,32 @@ CMakeFiles/atomic.dir/src/shape.cpp.o: src/engine/src/vertex_array.h
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/engine/src/vertex_buffer.h
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/shape.cpp
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/shape.h
+
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/block.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/bordered_rectangle.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/bordered_square.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/color.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/point.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/rectangle_parent.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/shader.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/vertex_array.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/engine/src/vertex_buffer.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/l_shape.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/shape.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/staging_area.cpp
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/staging_area.h
+CMakeFiles/atomic.dir/src/staging_area.cpp.o: src/z_shape.h
+
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/block.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/bordered_rectangle.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/bordered_square.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/color.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/point.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/rectangle_parent.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/shader.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/vertex_array.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/engine/src/vertex_buffer.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/shape.h
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/z_shape.cpp
+CMakeFiles/atomic.dir/src/z_shape.cpp.o: src/z_shape.h
 

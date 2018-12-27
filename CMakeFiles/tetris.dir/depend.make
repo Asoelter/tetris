@@ -28,5 +28,6 @@ CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/window.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/l_shape.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/tetris.dir/src/main.cpp.o: src/shape.h
+CMakeFiles/tetris.dir/src/main.cpp.o: src/z_shape.h
 CMakeFiles/tetris.dir/src/main.cpp.o: /usr/include/glfw-3.2.1/include/GLFW/glfw3.h
 
