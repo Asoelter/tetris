@@ -18,12 +18,13 @@ int main()
 	{
 		block.draw();
 		lshape.draw();
+		//lshape.moveRight(0.01f);
 		window.update();
 		window.setBackGroundColor(Color(Shade::BLUE));
 
 		if(count % 100 == 0)
 		{
-			lshape.moveRight(0.01f);
+			lshape.rotate();
 		}
 
 		++count;
