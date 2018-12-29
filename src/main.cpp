@@ -1,17 +1,14 @@
 #include <iostream>
-#include "engine/src/square.h"
 #include "engine/src/window.h"
-#include "engine/src/color.h"
-#include "engine/src/bordered_square.h"
-#include "engine/src/rectangle.h"
-#include "block.h"
 #include "l_shape.h"
 #include "z_shape.h"
+#include "staging_area.h"
+#include "game.h"
 
 int main()
 {
-	Window window(800, 600, "Tetris");
-	ZShape zshape(Point(0.0f, 0.0f), Color(Shade::RED));
+	/*Window window(800, 600, "Tetris");
+	StagingArea staging_area(Point(0.0f, 0.0f));
 
 	int count = 1;
 	while(window.open())
@@ -19,15 +16,18 @@ int main()
 		window.update();
 		window.setBackGroundColor(Color(Shade::BLUE));
 
-		zshape.draw();
+		staging_area.draw();
 
 		if(count % 100 == 0)
 		{
-			zshape.rotate();
+			staging_area.pop();
 		}
 
 		++count;
-	}
+	}*/
+
+	Game game;
+	game.run();
 
 	return 0;
 }

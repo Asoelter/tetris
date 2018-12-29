@@ -38,18 +38,6 @@ bordered_rectangle.h
 
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/point.h
 
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle.h
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-glm/gtc/type_ptr.hpp
--
-rectangle_parent.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle_parent.h
-shader.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/shader.h
-
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle_parent.h
 point.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/point.h
@@ -73,16 +61,6 @@ sstream
 -
 iostream
 -
-
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/square.h
-GL/glew.h
--
-GLFW/glfw3.h
--
-rectangle.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle.h
-color.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/color.h
 
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/vertex_array.h
 GL/glew.h
@@ -112,6 +90,14 @@ iostream
 color.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/color.h
 
+/home/adam/workspace/openGL/games/tetris3/src/game.h
+engine/src/bordered_rectangle.h
+/home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.h
+staging_area.h
+/home/adam/workspace/openGL/games/tetris3/src/staging_area.h
+engine/src/window.h
+/home/adam/workspace/openGL/games/tetris3/src/engine/src/window.h
+
 /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
 array
 -
@@ -123,22 +109,16 @@ shape.h
 /home/adam/workspace/openGL/games/tetris3/src/main.cpp
 iostream
 -
-engine/src/square.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/square.h
 engine/src/window.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/window.h
-engine/src/color.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/color.h
-engine/src/bordered_square.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_square.h
-engine/src/rectangle.h
-/home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle.h
-block.h
-/home/adam/workspace/openGL/games/tetris3/src/block.h
 l_shape.h
 /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
 z_shape.h
 /home/adam/workspace/openGL/games/tetris3/src/z_shape.h
+staging_area.h
+/home/adam/workspace/openGL/games/tetris3/src/staging_area.h
+game.h
+/home/adam/workspace/openGL/games/tetris3/src/game.h
 
 /home/adam/workspace/openGL/games/tetris3/src/shape.h
 array
@@ -149,6 +129,22 @@ algorithm
 -
 block.h
 /home/adam/workspace/openGL/games/tetris3/src/block.h
+
+/home/adam/workspace/openGL/games/tetris3/src/staging_area.h
+array
+-
+memory
+-
+engine/src/bordered_rectangle.h
+/home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.h
+block.h
+/home/adam/workspace/openGL/games/tetris3/src/block.h
+shape.h
+/home/adam/workspace/openGL/games/tetris3/src/shape.h
+l_shape.h
+/home/adam/workspace/openGL/games/tetris3/src/l_shape.h
+z_shape.h
+/home/adam/workspace/openGL/games/tetris3/src/z_shape.h
 
 /home/adam/workspace/openGL/games/tetris3/src/z_shape.h
 shape.h

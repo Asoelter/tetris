@@ -82,6 +82,23 @@ CMakeFiles/atomic.dir/src/engine/src/window.cpp.o: src/engine/src/color.h
 CMakeFiles/atomic.dir/src/engine/src/window.cpp.o: src/engine/src/window.cpp
 CMakeFiles/atomic.dir/src/engine/src/window.cpp.o: src/engine/src/window.h
 
+CMakeFiles/atomic.dir/src/game.cpp.o: src/block.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/bordered_rectangle.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/bordered_square.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/color.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/point.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/rectangle_parent.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/shader.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/vertex_array.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/vertex_buffer.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/engine/src/window.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/game.cpp
+CMakeFiles/atomic.dir/src/game.cpp.o: src/game.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/l_shape.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/shape.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/staging_area.h
+CMakeFiles/atomic.dir/src/game.cpp.o: src/z_shape.h
+
 CMakeFiles/atomic.dir/src/l_shape.cpp.o: src/block.h
 CMakeFiles/atomic.dir/src/l_shape.cpp.o: src/engine/src/bordered_rectangle.h
 CMakeFiles/atomic.dir/src/l_shape.cpp.o: src/engine/src/bordered_square.h
@@ -100,16 +117,16 @@ CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/bordered_rectangle.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/bordered_square.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/color.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/point.h
-CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/rectangle.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/rectangle_parent.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/shader.h
-CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/square.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/vertex_array.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/vertex_buffer.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/engine/src/window.h
+CMakeFiles/atomic.dir/src/main.cpp.o: src/game.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/l_shape.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/atomic.dir/src/main.cpp.o: src/shape.h
+CMakeFiles/atomic.dir/src/main.cpp.o: src/staging_area.h
 CMakeFiles/atomic.dir/src/main.cpp.o: src/z_shape.h
 
 CMakeFiles/atomic.dir/src/shape.cpp.o: src/block.h

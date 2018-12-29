@@ -19,15 +19,15 @@ CMakeFiles/tetris.dir/src/main.cpp.o
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_square.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/color.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/point.h
- /home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/rectangle_parent.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/shader.h
- /home/adam/workspace/openGL/games/tetris3/src/engine/src/square.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/vertex_array.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/vertex_buffer.h
  /home/adam/workspace/openGL/games/tetris3/src/engine/src/window.h
+ /home/adam/workspace/openGL/games/tetris3/src/game.h
  /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
  /home/adam/workspace/openGL/games/tetris3/src/main.cpp
  /home/adam/workspace/openGL/games/tetris3/src/shape.h
+ /home/adam/workspace/openGL/games/tetris3/src/staging_area.h
  /home/adam/workspace/openGL/games/tetris3/src/z_shape.h
  /usr/include/glfw-3.2.1/include/GLFW/glfw3.h

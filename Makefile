@@ -639,6 +639,33 @@ src/engine/src/window.cpp.s:
 	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/engine/src/window.cpp.s
 .PHONY : src/engine/src/window.cpp.s
 
+src/game.o: src/game.cpp.o
+
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
 src/l_shape.o: src/l_shape.cpp.o
 
 .PHONY : src/l_shape.o
@@ -839,6 +866,9 @@ help:
 	@echo "... src/engine/src/window.o"
 	@echo "... src/engine/src/window.i"
 	@echo "... src/engine/src/window.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 	@echo "... src/l_shape.o"
 	@echo "... src/l_shape.i"
 	@echo "... src/l_shape.s"

@@ -18,11 +18,11 @@ class StagingArea
 		StagingArea(Point position);
 
 		void draw() const;
-		std::unique_ptr<Block> pop();
+		std::unique_ptr<Shape> pop();
 
 	private:
 		BorderedRectangle						area_;
-		std::array<std::unique_ptr<Shape>, 3>	blocks_;
+		std::array<std::unique_ptr<Shape>, 3>	shapes_;
 		float									xPos_;
 		float									yPos_;
 };

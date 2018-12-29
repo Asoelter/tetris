@@ -18,16 +18,16 @@ CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/bordered_rectangle.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/bordered_square.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/color.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/point.h
-CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/rectangle.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/rectangle_parent.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/shader.h
-CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/square.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/vertex_array.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/vertex_buffer.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/engine/src/window.h
+CMakeFiles/tetris.dir/src/main.cpp.o: src/game.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/l_shape.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/tetris.dir/src/main.cpp.o: src/shape.h
+CMakeFiles/tetris.dir/src/main.cpp.o: src/staging_area.h
 CMakeFiles/tetris.dir/src/main.cpp.o: src/z_shape.h
 CMakeFiles/tetris.dir/src/main.cpp.o: /usr/include/glfw-3.2.1/include/GLFW/glfw3.h
 

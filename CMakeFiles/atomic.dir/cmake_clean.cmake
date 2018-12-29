@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/atomic.dir/src/l_shape.cpp.o"
   "CMakeFiles/atomic.dir/src/z_shape.cpp.o"
   "CMakeFiles/atomic.dir/src/staging_area.cpp.o"
+  "CMakeFiles/atomic.dir/src/game.cpp.o"
   "libatomic.pdb"
   "libatomic.a"
 )
