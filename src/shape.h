@@ -26,6 +26,14 @@ class Shape
 		virtual void rotate();
 		virtual void draw() const;
 
+		virtual float xPos() const;
+		virtual float yPos() const;
+
+		virtual float topBorderPosition()		const = 0;
+		virtual float rightBorderPosition()		const = 0;
+		virtual float bottomBorderPosition()	const = 0;
+		virtual float leftBorderPosition()		const = 0;
+
 	protected:
 		Shape(Point position);
 		Shape(const Shape&)			 {}

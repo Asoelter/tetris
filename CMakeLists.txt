@@ -33,6 +33,7 @@ add_library(atomic src/main.cpp
 			   src/l_shape.h						src/l_shape.cpp
 			   src/z_shape.h						src/z_shape.cpp
 			   src/staging_area.h					src/staging_area.cpp
+			   src/shape_manager.h					src/shape_manager.cpp
 			   src/game.h							src/game.cpp
 			   )
 

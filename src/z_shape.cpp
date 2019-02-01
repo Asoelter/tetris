@@ -44,3 +44,23 @@ void ZShape::rotate()
 
 	Shape::rotate();
 }
+
+float ZShape::topBorderPosition() const
+{
+	return Shape::yPos() + Block::Dimension;
+}
+
+float ZShape::rightBorderPosition()	const
+{
+	return Shape::xPos() + (1.5f * Block::Dimension);
+}
+
+float ZShape::bottomBorderPosition() const
+{
+	return Shape::yPos() - Block::Dimension;
+}
+
+float ZShape::leftBorderPosition() const
+{
+	return Shape::xPos() - (1.5f * Block::Dimension);
+}

@@ -28,6 +28,7 @@ CMakeFiles/tetris.dir/src/main.cpp.o
  /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
  /home/adam/workspace/openGL/games/tetris3/src/main.cpp
  /home/adam/workspace/openGL/games/tetris3/src/shape.h
+ /home/adam/workspace/openGL/games/tetris3/src/shape_manager.h
  /home/adam/workspace/openGL/games/tetris3/src/staging_area.h
  /home/adam/workspace/openGL/games/tetris3/src/z_shape.h
  /usr/include/glfw-3.2.1/include/GLFW/glfw3.h

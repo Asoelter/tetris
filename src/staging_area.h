@@ -15,16 +15,20 @@ class StagingArea
 	using shapePtr = std::unique_ptr<Shape>;
 
 	public:
-		StagingArea(Point position);
+		StagingArea(const Point& position);
 
 		void draw() const;
-		std::unique_ptr<Shape> pop();
+
+		shapePtr pop();
+		
+		float xPos() const;
+		float yPos() const;
 
 	private:
-		BorderedRectangle						area_;
-		std::array<std::unique_ptr<Shape>, 3>	shapes_;
-		float									xPos_;
-		float									yPos_;
+		BorderedRectangle			area_;
+		std::array<shapePtr, 3>		shapes_;
+		float						xPos_;
+		float						yPos_;
 };
 
 #endif //STAGING_AREA_H

@@ -2,8 +2,11 @@
 #define GAME_H
 
 #include "engine/src/bordered_rectangle.h"
-#include "staging_area.h"
 #include "engine/src/window.h"
+#include "staging_area.h"
+#include "shape_manager.h"
+
+#define persistant static
 
 class Game
 {
@@ -13,6 +16,9 @@ class Game
 		Game();
 
 		void run();
+
+	private:
+		void manageShape(shapePtr& shape);
 
 	private:
 		Window					window_;

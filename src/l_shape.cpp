@@ -4,7 +4,7 @@ LShape::LShape(Point position, Color color)
 	: Shape(position)
 {
 	Point p1(position.x() - (Block::Dimension / 2), position.y() + Block::Dimension);
-	Point p2(position.x() - (Block::Dimension / 2), position.y()					);
+	Point p2(position.x() - (Block::Dimension / 2), position.y()				   );
 	Point p3(position.x() - (Block::Dimension / 2), position.y() - Block::Dimension);
 	Point p4(position.x() + (Block::Dimension / 2), position.y() - Block::Dimension);
 
@@ -55,3 +55,22 @@ void LShape::rotate()
 	Shape::rotate();
 }
 
+float LShape::topBorderPosition() const
+{
+	return Shape::yPos() + (1.5f * Block::Dimension);
+}
+
+float LShape::rightBorderPosition()	const
+{
+	return Shape::xPos() + Block::Dimension;
+}
+
+float LShape::bottomBorderPosition() const
+{
+	return Shape::yPos() - (1.5f * Block::Dimension);
+}
+
+float LShape::leftBorderPosition() const
+{
+	return Shape::xPos() - Block::Dimension;
+}

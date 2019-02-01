@@ -1,6 +1,6 @@
 #include "staging_area.h"
 
-StagingArea::StagingArea(Point position)
+StagingArea::StagingArea(const Point& position)
 	: area_(position, 0.3f, 0.7f, Color(Shade::BLACK), Color(Shade::WHITE))
 	, shapes_()
 	, xPos_(position.x())
@@ -21,14 +21,24 @@ std::unique_ptr<Shape> StagingArea::pop()
 {
 	//TODO: Implement random shape type and color generation 
 
-	shapes_[0].swap(shapes_[1]);
-	shapes_[1].swap(shapes_[2]);
+	std::swap(shapes_[0], shapes_[1]);
+	std::swap(shapes_[1], shapes_[2]);
 
-	std::unique_ptr<Shape> newShape = std::make_unique<ZShape>(Point(xPos_, yPos_ - 0.2f), Color(Shade::GREEN));
-	shapes_[2].swap(newShape);
+	shapePtr newShape = std::make_unique<ZShape>(Point(xPos_, yPos_ - 0.2f), Color(Shade::GREEN));
+	std::swap(shapes_[2], newShape);
 
 	shapes_[0]->moveUp(0.2f);
 	shapes_[1]->moveUp(0.2f);
 
 	return newShape;
+}
+
+float StagingArea::xPos() const
+{
+	return area_.xPos();
+}
+
+float StagingArea::yPos() const
+{
+	return area_.yPos();
 }

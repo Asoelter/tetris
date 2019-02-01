@@ -5,13 +5,11 @@
 #include "engine/src/point.h"
 #include "engine/src/color.h"
 
-class Block : public BorderedSquare
+struct Block : public BorderedSquare
 {
-	public:
-		Block(Point position, Color color);
+	Block(Point position, Color color);
 
-		static const float Dimension;
-	private:
+	static constexpr float Dimension = 0.08f;
 };
 
 #endif //BLOCK_H

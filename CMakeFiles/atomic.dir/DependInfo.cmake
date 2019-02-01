@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adam/workspace/openGL/games/tetris3/src/l_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/l_shape.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/main.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/main.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/shape.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/shape_manager.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/shape_manager.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/staging_area.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/z_shape.cpp.o"
   )

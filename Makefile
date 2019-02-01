@@ -750,6 +750,33 @@ src/shape.cpp.s:
 	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape.cpp.s
 .PHONY : src/shape.cpp.s
 
+src/shape_manager.o: src/shape_manager.cpp.o
+
+.PHONY : src/shape_manager.o
+
+# target to build an object file
+src/shape_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.o
+.PHONY : src/shape_manager.cpp.o
+
+src/shape_manager.i: src/shape_manager.cpp.i
+
+.PHONY : src/shape_manager.i
+
+# target to preprocess a source file
+src/shape_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.i
+.PHONY : src/shape_manager.cpp.i
+
+src/shape_manager.s: src/shape_manager.cpp.s
+
+.PHONY : src/shape_manager.s
+
+# target to generate assembly for a file
+src/shape_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.s
+.PHONY : src/shape_manager.cpp.s
+
 src/staging_area.o: src/staging_area.cpp.o
 
 .PHONY : src/staging_area.o
@@ -878,6 +905,9 @@ help:
 	@echo "... src/shape.o"
 	@echo "... src/shape.i"
 	@echo "... src/shape.s"
+	@echo "... src/shape_manager.o"
+	@echo "... src/shape_manager.i"
+	@echo "... src/shape_manager.s"
 	@echo "... src/staging_area.o"
 	@echo "... src/staging_area.i"
 	@echo "... src/staging_area.s"

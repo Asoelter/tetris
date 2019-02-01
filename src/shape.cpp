@@ -10,11 +10,13 @@ std::array<Orientation, 4> Shape::orientations_ = {
 void Shape::moveUp(float increment)
 {
 	std::for_each(blocks_.begin(), blocks_.end(), [increment](blockPtr& b){b->moveUp(increment);});
+	yPos_ += increment;
 }
 
 void Shape::moveRight(float increment)
 {
 	std::for_each(blocks_.begin(), blocks_.end(), [increment](blockPtr& b){b->moveRight(increment);});
+	xPos_ += increment;
 }
 
 void Shape::rotate()
@@ -41,4 +43,14 @@ Shape::Shape(Point position)
 Orientation Shape::orientation() const
 {
 	return currentOrientation_;
+}
+
+float Shape::xPos() const
+{
+	return xPos_;
+}
+
+float Shape::yPos() const
+{
+	return yPos_;
 }
