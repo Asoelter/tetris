@@ -28,8 +28,9 @@ void Game::run()
 		if(!activeShape_)
 		{
 			activeShape_ = stagingArea_.pop();
-			activeShape_->moveRight(gameArea_.xPos() - stagingArea_.xPos());
-			activeShape_->moveUp(0.5f);
+			//activeShape_->moveRight(gameArea_.xPos() - stagingArea_.xPos());
+			//activeShape_->moveUp(0.5f);
+			centerShape(activeShape_);
 		}
 
 		activeShape_->draw();
@@ -71,4 +72,24 @@ void Game::manageShape(shapePtr& shape)
 	{
 		spacePressedRecently = false;
 	}
+}
+
+void Game::centerShape(const shapePtr& shape)
+{
+	//TODO: If possible, implement without a 
+	//		call to dynamic cast 
+
+	//TODO: Add extra cases as new shape 
+	//		types get added
+
+	if(dynamic_cast<LShape*>(shape.get()))
+	{
+		shape->moveRight(gameArea_.xPos() - stagingArea_.xPos());
+	}
+	else
+	{
+		shape->moveRight(gameArea_.xPos() - stagingArea_.xPos() -(0.5f * Block::Dimension));
+	}
+
+	shape->moveUp(0.5f);
 }

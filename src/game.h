@@ -19,6 +19,7 @@ class Game
 
 	private:
 		void manageShape(shapePtr& shape);
+		void centerShape(const shapePtr& shape);
 
 	private:
 		Window					window_;
