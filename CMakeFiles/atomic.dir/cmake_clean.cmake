@@ -13,13 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/atomic.dir/src/engine/src/square.cpp.o"
   "CMakeFiles/atomic.dir/src/engine/src/bordered_square.cpp.o"
   "CMakeFiles/atomic.dir/src/engine/src/window.cpp.o"
-  "CMakeFiles/atomic.dir/src/block.cpp.o"
-  "CMakeFiles/atomic.dir/src/shape.cpp.o"
-  "CMakeFiles/atomic.dir/src/l_shape.cpp.o"
-  "CMakeFiles/atomic.dir/src/z_shape.cpp.o"
-  "CMakeFiles/atomic.dir/src/staging_area.cpp.o"
-  "CMakeFiles/atomic.dir/src/shape_manager.cpp.o"
-  "CMakeFiles/atomic.dir/src/game.cpp.o"
   "libatomic.pdb"
   "libatomic.a"
 )

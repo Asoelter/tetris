@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adam/workspace/openGL/games/tetris3/src/block.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/block.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/bordered_rectangle.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_square.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/bordered_square.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/color.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/color.cpp.o"
@@ -18,13 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/vertex_array.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/vertex_array.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/vertex_buffer.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/vertex_buffer.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/engine/src/window.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/engine/src/window.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/game.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/game.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/l_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/l_shape.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/main.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/main.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/shape.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/shape_manager.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/shape_manager.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/staging_area.cpp.o"
-  "/home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/atomic.dir/src/z_shape.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

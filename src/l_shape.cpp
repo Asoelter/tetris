@@ -3,10 +3,10 @@
 LShape::LShape(Point position, Color color)
 	: Shape(position)
 {
-	Point p1(position.x() - (Block::Dimension / 2), position.y() + Block::Dimension);
-	Point p2(position.x() - (Block::Dimension / 2), position.y()				   );
-	Point p3(position.x() - (Block::Dimension / 2), position.y() - Block::Dimension);
-	Point p4(position.x() + (Block::Dimension / 2), position.y() - Block::Dimension);
+	Point p1(position.x() - (Block::Dimension / 2.0f), position.y() + Block::Dimension);
+	Point p2(position.x() - (Block::Dimension / 2.0f), position.y()				   );
+	Point p3(position.x() - (Block::Dimension / 2.0f), position.y() - Block::Dimension);
+	Point p4(position.x() + (Block::Dimension / 2.0f), position.y() - Block::Dimension);
 
 	Shape::blocks_[0] = std::make_unique<Block>(p1, color);
 	Shape::blocks_[1] = std::make_unique<Block>(p2, color);

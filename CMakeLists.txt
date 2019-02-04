@@ -28,7 +28,10 @@ add_library(atomic src/main.cpp
 			   src/engine/src/square.h				src/engine/src/square.cpp
 			   src/engine/src/bordered_square.h		src/engine/src/bordered_square.cpp
 			   src/engine/src/window.h				src/engine/src/window.cpp
-			   src/block.h							src/block.cpp
+			   )
+
+add_executable(tetris		src/main.cpp
+			   src/block.h	src/block.cpp
 			   src/shape.h							src/shape.cpp
 			   src/l_shape.h						src/l_shape.cpp
 			   src/z_shape.h						src/z_shape.cpp
@@ -36,9 +39,6 @@ add_library(atomic src/main.cpp
 			   src/shape_manager.h					src/shape_manager.cpp
 			   src/game.h							src/game.cpp
 			   )
-
-add_executable(tetris		src/main.cpp
-			   src/block.h	src/block.cpp)
 
 target_link_libraries(tetris atomic)
 target_link_libraries(tetris GLEW::GLEW)

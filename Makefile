@@ -264,7 +264,6 @@ src/block.o: src/block.cpp.o
 
 # target to build an object file
 src/block.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/block.cpp.o
 	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/block.cpp.o
 .PHONY : src/block.cpp.o
 
@@ -274,7 +273,6 @@ src/block.i: src/block.cpp.i
 
 # target to preprocess a source file
 src/block.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/block.cpp.i
 	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/block.cpp.i
 .PHONY : src/block.cpp.i
 
@@ -284,7 +282,6 @@ src/block.s: src/block.cpp.s
 
 # target to generate assembly for a file
 src/block.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/block.cpp.s
 	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/block.cpp.s
 .PHONY : src/block.cpp.s
 
@@ -645,7 +642,7 @@ src/game.o: src/game.cpp.o
 
 # target to build an object file
 src/game.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/game.cpp.o
 .PHONY : src/game.cpp.o
 
 src/game.i: src/game.cpp.i
@@ -654,7 +651,7 @@ src/game.i: src/game.cpp.i
 
 # target to preprocess a source file
 src/game.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/game.cpp.i
 .PHONY : src/game.cpp.i
 
 src/game.s: src/game.cpp.s
@@ -663,7 +660,7 @@ src/game.s: src/game.cpp.s
 
 # target to generate assembly for a file
 src/game.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/game.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
 src/l_shape.o: src/l_shape.cpp.o
@@ -672,7 +669,7 @@ src/l_shape.o: src/l_shape.cpp.o
 
 # target to build an object file
 src/l_shape.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/l_shape.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/l_shape.cpp.o
 .PHONY : src/l_shape.cpp.o
 
 src/l_shape.i: src/l_shape.cpp.i
@@ -681,7 +678,7 @@ src/l_shape.i: src/l_shape.cpp.i
 
 # target to preprocess a source file
 src/l_shape.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/l_shape.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/l_shape.cpp.i
 .PHONY : src/l_shape.cpp.i
 
 src/l_shape.s: src/l_shape.cpp.s
@@ -690,7 +687,7 @@ src/l_shape.s: src/l_shape.cpp.s
 
 # target to generate assembly for a file
 src/l_shape.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/l_shape.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/l_shape.cpp.s
 .PHONY : src/l_shape.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -729,7 +726,7 @@ src/shape.o: src/shape.cpp.o
 
 # target to build an object file
 src/shape.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape.cpp.o
 .PHONY : src/shape.cpp.o
 
 src/shape.i: src/shape.cpp.i
@@ -738,7 +735,7 @@ src/shape.i: src/shape.cpp.i
 
 # target to preprocess a source file
 src/shape.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape.cpp.i
 .PHONY : src/shape.cpp.i
 
 src/shape.s: src/shape.cpp.s
@@ -747,7 +744,7 @@ src/shape.s: src/shape.cpp.s
 
 # target to generate assembly for a file
 src/shape.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape.cpp.s
 .PHONY : src/shape.cpp.s
 
 src/shape_manager.o: src/shape_manager.cpp.o
@@ -756,7 +753,7 @@ src/shape_manager.o: src/shape_manager.cpp.o
 
 # target to build an object file
 src/shape_manager.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape_manager.cpp.o
 .PHONY : src/shape_manager.cpp.o
 
 src/shape_manager.i: src/shape_manager.cpp.i
@@ -765,7 +762,7 @@ src/shape_manager.i: src/shape_manager.cpp.i
 
 # target to preprocess a source file
 src/shape_manager.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape_manager.cpp.i
 .PHONY : src/shape_manager.cpp.i
 
 src/shape_manager.s: src/shape_manager.cpp.s
@@ -774,7 +771,7 @@ src/shape_manager.s: src/shape_manager.cpp.s
 
 # target to generate assembly for a file
 src/shape_manager.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/shape_manager.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/shape_manager.cpp.s
 .PHONY : src/shape_manager.cpp.s
 
 src/staging_area.o: src/staging_area.cpp.o
@@ -783,7 +780,7 @@ src/staging_area.o: src/staging_area.cpp.o
 
 # target to build an object file
 src/staging_area.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/staging_area.cpp.o
 .PHONY : src/staging_area.cpp.o
 
 src/staging_area.i: src/staging_area.cpp.i
@@ -792,7 +789,7 @@ src/staging_area.i: src/staging_area.cpp.i
 
 # target to preprocess a source file
 src/staging_area.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/staging_area.cpp.i
 .PHONY : src/staging_area.cpp.i
 
 src/staging_area.s: src/staging_area.cpp.s
@@ -801,7 +798,7 @@ src/staging_area.s: src/staging_area.cpp.s
 
 # target to generate assembly for a file
 src/staging_area.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/staging_area.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/staging_area.cpp.s
 .PHONY : src/staging_area.cpp.s
 
 src/z_shape.o: src/z_shape.cpp.o
@@ -810,7 +807,7 @@ src/z_shape.o: src/z_shape.cpp.o
 
 # target to build an object file
 src/z_shape.cpp.o:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.o
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/z_shape.cpp.o
 .PHONY : src/z_shape.cpp.o
 
 src/z_shape.i: src/z_shape.cpp.i
@@ -819,7 +816,7 @@ src/z_shape.i: src/z_shape.cpp.i
 
 # target to preprocess a source file
 src/z_shape.cpp.i:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.i
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/z_shape.cpp.i
 .PHONY : src/z_shape.cpp.i
 
 src/z_shape.s: src/z_shape.cpp.s
@@ -828,7 +825,7 @@ src/z_shape.s: src/z_shape.cpp.s
 
 # target to generate assembly for a file
 src/z_shape.cpp.s:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/src/z_shape.cpp.s
+	$(MAKE) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/z_shape.cpp.s
 .PHONY : src/z_shape.cpp.s
 
 # Help Target

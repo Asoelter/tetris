@@ -5,7 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adam/workspace/openGL/games/tetris3/src/block.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/block.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/game.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/game.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/l_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/l_shape.cpp.o"
   "/home/adam/workspace/openGL/games/tetris3/src/main.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/main.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/shape.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/shape_manager.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/shape_manager.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/staging_area.cpp.o"
+  "/home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp" "/home/adam/workspace/openGL/games/tetris3/CMakeFiles/tetris.dir/src/z_shape.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

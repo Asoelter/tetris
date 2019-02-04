@@ -92,6 +92,10 @@ unordered_map
 color.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/color.h
 
+/home/adam/workspace/openGL/games/tetris3/src/game.cpp
+game.h
+/home/adam/workspace/openGL/games/tetris3/src/game.h
+
 /home/adam/workspace/openGL/games/tetris3/src/game.h
 engine/src/bordered_rectangle.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.h
@@ -101,6 +105,10 @@ staging_area.h
 /home/adam/workspace/openGL/games/tetris3/src/staging_area.h
 shape_manager.h
 /home/adam/workspace/openGL/games/tetris3/src/shape_manager.h
+
+/home/adam/workspace/openGL/games/tetris3/src/l_shape.cpp
+l_shape.h
+/home/adam/workspace/openGL/games/tetris3/src/l_shape.h
 
 /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
 shape.h
@@ -112,6 +120,10 @@ iostream
 game.h
 /home/adam/workspace/openGL/games/tetris3/src/game.h
 
+/home/adam/workspace/openGL/games/tetris3/src/shape.cpp
+shape.h
+/home/adam/workspace/openGL/games/tetris3/src/shape.h
+
 /home/adam/workspace/openGL/games/tetris3/src/shape.h
 array
 -
@@ -122,6 +134,10 @@ algorithm
 block.h
 /home/adam/workspace/openGL/games/tetris3/src/block.h
 
+/home/adam/workspace/openGL/games/tetris3/src/shape_manager.cpp
+shape_manager.h
+/home/adam/workspace/openGL/games/tetris3/src/shape_manager.h
+
 /home/adam/workspace/openGL/games/tetris3/src/shape_manager.h
 shape.h
 /home/adam/workspace/openGL/games/tetris3/src/shape.h
@@ -130,10 +146,18 @@ engine/src/bordered_rectangle.h
 engine/src/window.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/window.h
 
+/home/adam/workspace/openGL/games/tetris3/src/staging_area.cpp
+staging_area.h
+/home/adam/workspace/openGL/games/tetris3/src/staging_area.h
+
 /home/adam/workspace/openGL/games/tetris3/src/staging_area.h
 array
 -
 memory
+-
+random
+-
+chrono
 -
 engine/src/bordered_rectangle.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.h
@@ -143,6 +167,10 @@ shape.h
 /home/adam/workspace/openGL/games/tetris3/src/shape.h
 l_shape.h
 /home/adam/workspace/openGL/games/tetris3/src/l_shape.h
+z_shape.h
+/home/adam/workspace/openGL/games/tetris3/src/z_shape.h
+
+/home/adam/workspace/openGL/games/tetris3/src/z_shape.cpp
 z_shape.h
 /home/adam/workspace/openGL/games/tetris3/src/z_shape.h
 

@@ -5,9 +5,9 @@ ShapeManager::ShapeManager(Window* inputSource, const BorderedRectangle& borderS
 	, spacePressedRecently_(false)
 	, translationCounter_(0)
 	, rotationCounter_(0)
-	, rightLimit_(borderSource.xPos() + (borderSource.width() / 2.0f))
+	, rightLimit_(borderSource.xPos() + (borderSource.width()  / 2.0f))
 	, lowerLimit_(borderSource.yPos() - (borderSource.height() / 2.0f))
-	, leftLimit_(borderSource.xPos()  - (borderSource.width() / 2.0f))
+	, leftLimit_(borderSource.xPos()  - (borderSource.width()  / 2.0f))
 	, window_(inputSource)
 {
 
@@ -50,7 +50,7 @@ bool ShapeManager::shapeHasFallen()
 
 void ShapeManager::moveShapeRight(shapePtr& shape) const
 {
-	if(shape->rightBorderPosition() < rightLimit_)
+	if(shape->rightBorderPosition() + Block::Dimension <= rightLimit_)
 	{
 		shape->moveRight(Block::Dimension);
 	}
@@ -58,7 +58,7 @@ void ShapeManager::moveShapeRight(shapePtr& shape) const
 
 void ShapeManager::moveShapeLeft(shapePtr& shape) const
 {
-	if(shape->leftBorderPosition() > leftLimit_)
+	if(shape->leftBorderPosition() - Block::Dimension >= leftLimit_)
 	{
 		shape->moveRight(-1 * Block::Dimension);
 	}
