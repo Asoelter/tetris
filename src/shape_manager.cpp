@@ -1,14 +1,14 @@
 #include "shape_manager.h"
 
 ShapeManager::ShapeManager(Window* inputSource, const BorderedRectangle& borderSource)
-	: shapeHasFallen_(false)
-	, spacePressedRecently_(false)
-	, translationCounter_(0)
-	, rotationCounter_(0)
-	, rightLimit_(borderSource.xPos() + (borderSource.width()  / 2.0f))
-	, lowerLimit_(borderSource.yPos() - (borderSource.height() / 2.0f))
-	, leftLimit_(borderSource.xPos()  - (borderSource.width()  / 2.0f))
-	, window_(inputSource)
+	: shapeHasFallen_		(false)
+	, spacePressedRecently_	(false)
+	, translationCounter_	(0)
+	, rotationCounter_		(0)
+	, rightLimit_			(borderSource.xPos() + (borderSource.width()  / 2.0f))
+	, lowerLimit_			(borderSource.yPos() - (borderSource.height() / 2.0f))
+	, leftLimit_			(borderSource.xPos()  - (borderSource.width()  / 2.0f))
+	, window_				(inputSource)
 {
 
 }
@@ -31,13 +31,14 @@ void ShapeManager::manage(std::unique_ptr<Shape>& shape)
 		rotateShape(shape);
 	}
 
-	if(rotationCounter_ == 10)
+	if((int)rotationCounter_ == 10)
 	{
 		spacePressedRecently_ = false;
+		rotationCounter_ = (rotationCounter_ + 1) % 11;
 	}
 	if(spacePressedRecently_)
 	{
-		rotationCounter_ = (rotationCounter_ + 1) % 11;
+		++rotationCounter_;
 	}
 
 	moveShapeDown(shape, shapeHasFallen_);
@@ -86,5 +87,4 @@ void ShapeManager::rotateShape(shapePtr& shape)
 		shape->rotate();
 		spacePressedRecently_ = true;
 	}
-	
 }

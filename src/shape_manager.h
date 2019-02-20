@@ -17,8 +17,8 @@ class ShapeManager
 
 	private:
 		void moveShapeRight(shapePtr& shape) const;
-		void moveShapeLeft(shapePtr& shape)  const;
-		void moveShapeDown(shapePtr& shape, bool& statusFlag) const;
+		void moveShapeLeft(shapePtr&  shape) const;
+		void moveShapeDown(shapePtr&  shape, bool& statusFlag) const;
 		void rotateShape(shapePtr& shape);
 
 		bool shapeHasFallen_;
