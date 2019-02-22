@@ -97,6 +97,8 @@ game.h
 /home/adam/workspace/openGL/games/tetris3/src/game.h
 
 /home/adam/workspace/openGL/games/tetris3/src/game.h
+utility
+-
 engine/src/bordered_rectangle.h
 /home/adam/workspace/openGL/games/tetris3/src/engine/src/bordered_rectangle.h
 engine/src/window.h

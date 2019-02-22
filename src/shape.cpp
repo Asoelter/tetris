@@ -19,6 +19,16 @@ void Shape::moveRight(float increment)
 	xPos_ += increment;
 }
 
+void Shape::moveDown(float increment)
+{
+	moveUp(-1.0 * increment);
+}
+
+void Shape::moveLeft(float increment)
+{
+	moveRight(-1.0 * increment);
+}
+
 void Shape::rotate()
 {
 	orientationIndex_   = (orientationIndex_ + 1) % 4;
@@ -53,4 +63,13 @@ float Shape::xPos() const
 float Shape::yPos() const
 {
 	return yPos_;
+}
+
+std::array<std::unique_ptr<Block>, 4> Shape::releaseBlocks()
+{
+	std::array<blockPtr, 4> rval = {nullptr, nullptr, nullptr, nullptr};
+
+	std::swap(blocks_, rval);
+
+	return rval;
 }

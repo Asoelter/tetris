@@ -18,11 +18,14 @@ enum class Orientation
 class Shape
 {
 	using blockPtr = std::unique_ptr<Block>;
+	using shapePtr = std::unique_ptr<Shape>;
 
 	public:
 		virtual ~Shape(){}
 		virtual void moveUp(float increment);
 		virtual void moveRight(float increment);
+		virtual void moveDown(float increment);
+		virtual void moveLeft(float increment);
 		virtual void rotate();
 		virtual void draw() const;
 
@@ -33,6 +36,8 @@ class Shape
 		virtual float rightBorderPosition()		const = 0;
 		virtual float bottomBorderPosition()	const = 0;
 		virtual float leftBorderPosition()		const = 0;
+
+		virtual std::array<blockPtr, 4> releaseBlocks();
 
 	protected:
 		Shape(Point position);

@@ -7,7 +7,7 @@ ShapeManager::ShapeManager(Window* inputSource, const BorderedRectangle& borderS
 	, rotationCounter_		(0)
 	, rightLimit_			(borderSource.xPos() + (borderSource.width()  / 2.0f))
 	, lowerLimit_			(borderSource.yPos() - (borderSource.height() / 2.0f))
-	, leftLimit_			(borderSource.xPos()  - (borderSource.width()  / 2.0f))
+	, leftLimit_			(borderSource.xPos() - (borderSource.width()  / 2.0f))
 	, window_				(inputSource)
 {
 
@@ -31,7 +31,7 @@ void ShapeManager::manage(std::unique_ptr<Shape>& shape)
 		rotateShape(shape);
 	}
 
-	if((int)rotationCounter_ == 10)
+	if(rotationCounter_ == 10)
 	{
 		spacePressedRecently_ = false;
 		rotationCounter_ = (rotationCounter_ + 1) % 11;
@@ -61,17 +61,17 @@ void ShapeManager::moveShapeLeft(shapePtr& shape) const
 {
 	if(shape->leftBorderPosition() - Block::Dimension >= leftLimit_)
 	{
-		shape->moveRight(-1 * Block::Dimension);
+		shape->moveLeft(Block::Dimension);
 	}
 }
 
 void ShapeManager::moveShapeDown(shapePtr& shape, bool& statusFlag) const
 {
-	if(shape->bottomBorderPosition() > lowerLimit_) 
+	if(shape->bottomBorderPosition() - Block::Dimension >= lowerLimit_) 
 	{
 		if(translationCounter_ % 10 == 0)
 		{
-			shape->moveUp(-1 * Block::Dimension);
+			shape->moveDown(Block::Dimension);
 		}
 	}
 	else
